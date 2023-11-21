@@ -7,7 +7,7 @@ function Home(props) {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path = '/' element={<EmpDetails/>}/>
+                    <Route path = '/emp-mangement' element={<EmpDetails/>}/>
                     <Route path = '/create' element={<AddEmp/>}/>
                     {/* <Route path = '/edit' element={<EmpEdit/>}/> */}
                 </Routes>
@@ -19,3 +19,5 @@ function Home(props) {
 }
 
 export default Home;
+
+
