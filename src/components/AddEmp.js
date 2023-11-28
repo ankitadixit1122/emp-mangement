@@ -17,10 +17,11 @@ function AddEmp(props) {
         let uniqueId = id.slice(0,8);
         console.log('ID: '+uniqueId)
         Employees.push({id:uniqueId, name:emp.name, age:emp.age})
-        navigate('/')
+        navigate('/emp-mangement')
     }
     return (
         <div>
+            <label>Add New Employee</label>
             <form>
                 <input 
                     type='text' 

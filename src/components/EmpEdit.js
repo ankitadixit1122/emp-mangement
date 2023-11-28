@@ -19,7 +19,7 @@ function EmpEdit(props) {
         let emp = Employees[index]
         emp.name = name
         emp.age = age
-        navigate('/')
+        navigate('/emp-mangement')
     }
 
     useEffect(()=>{
@@ -30,6 +30,8 @@ function EmpEdit(props) {
 
     return (
         <div>
+            <label>Information Edit Page</label>
+            
             <form>
                 <input 
                     type='text' 
